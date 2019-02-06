@@ -3,11 +3,14 @@ def my_each(array)
     i=0
     while i<array.length
       yield(array[i])
-    i+=i
+    i=i+1
     end
+  array
   else
     "This block should not run!"
-  end  
+  end 
 end
 
-my_each(['hi', 'hello', 'bye', 'goodbye']) do |item| 
+my_each(['hi', 'hello', 'bye', 'goodbye']) do 
+|item| "#{item}"
+end
