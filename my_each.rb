@@ -9,3 +9,5 @@ def my_each(array)
     "This block should not run!"
   end  
 end
+
+my_each()
