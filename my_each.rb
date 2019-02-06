@@ -10,4 +10,4 @@ def my_each(array)
   end  
 end
 
-my_each()
+my_each(['hi', 'hello', 'bye', 'goodbye']) {|item| item = array[i]}
